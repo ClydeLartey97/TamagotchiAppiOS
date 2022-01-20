@@ -13,6 +13,12 @@
 		69A6F51C27998A52005F62C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69A6F51B27998A52005F62C1 /* Preview Assets.xcassets */; };
 		69A6F52727998A52005F62C1 /* TamagotchiAppiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A6F52627998A52005F62C1 /* TamagotchiAppiOSTests.swift */; };
 		69A6F53227998A52005F62C1 /* TamagotchiAppiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A6F53127998A52005F62C1 /* TamagotchiAppiOSUITests.swift */; };
+		69A6F54327998A9C005F62C1 /* Tamagotchi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A6F54227998A9C005F62C1 /* Tamagotchi.swift */; };
+		69A6F54427998B23005F62C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A6F51627998A50005F62C1 /* ContentView.swift */; };
+		69A6F54827998B23005F62C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A6F51627998A50005F62C1 /* ContentView.swift */; };
+		69A6F54F27998C3C005F62C1 /* Tamagotchi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A6F54227998A9C005F62C1 /* Tamagotchi.swift */; };
+		69A6F55327998C3D005F62C1 /* Tamagotchi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A6F54227998A9C005F62C1 /* Tamagotchi.swift */; };
+		69A6F55E2799930F005F62C1 /* StarterTamagotchi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A6F55D2799930F005F62C1 /* StarterTamagotchi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,8 @@
 		69A6F52D27998A52005F62C1 /* TamagotchiAppiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamagotchiAppiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69A6F53127998A52005F62C1 /* TamagotchiAppiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagotchiAppiOSUITests.swift; sourceTree = "<group>"; };
 		69A6F53327998A52005F62C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69A6F54227998A9C005F62C1 /* Tamagotchi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tamagotchi.swift; sourceTree = "<group>"; };
+		69A6F55D2799930F005F62C1 /* StarterTamagotchi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterTamagotchi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				69A6F51B27998A52005F62C1 /* Preview Assets.xcassets */,
+				69A6F54227998A9C005F62C1 /* Tamagotchi.swift */,
+				69A6F55D2799930F005F62C1 /* StarterTamagotchi.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -259,7 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69A6F55E2799930F005F62C1 /* StarterTamagotchi.swift in Sources */,
 				69A6F51727998A50005F62C1 /* ContentView.swift in Sources */,
+				69A6F54327998A9C005F62C1 /* Tamagotchi.swift in Sources */,
 				69A6F51527998A50005F62C1 /* TamagotchiAppiOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69A6F54427998B23005F62C1 /* ContentView.swift in Sources */,
+				69A6F55327998C3D005F62C1 /* Tamagotchi.swift in Sources */,
 				69A6F52727998A52005F62C1 /* TamagotchiAppiOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +290,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69A6F54827998B23005F62C1 /* ContentView.swift in Sources */,
+				69A6F54F27998C3C005F62C1 /* Tamagotchi.swift in Sources */,
 				69A6F53227998A52005F62C1 /* TamagotchiAppiOSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
