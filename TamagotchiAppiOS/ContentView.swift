@@ -8,20 +8,35 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var starterTamagotchi = StarterTamagotchi()
+    @State private var tamagotchi = Tamagotchi(name: "Clyde Lartey")
     
 
     var body: some View {
-        Text("Meet your Tamagotchi")
-            .foregroundColor(.red)
-            .fontWeight(.heavy)
-            .padding(20)
+        VStack {
+            Text("Meet your Tamagotchi")
+                .foregroundColor(.red)
+                .fontWeight(.heavy)
+                .padding(20)
+            Text(tamagotchi.returnDetails())
+            Button("Give Tamagotchi Food", action {
+                tamagotchi.hungerStatus()
             
+        }
+        
+        
+        
             
+            }
+        }
+        
+        
+        
+            
+       
         
     
         
-    }
 }
+
 
 
